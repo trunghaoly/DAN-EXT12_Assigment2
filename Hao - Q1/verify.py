@@ -1,6 +1,6 @@
 # Import custom modules
-from Q1keyencrypted import *
-from Q1keydecrypted import *
+from encrypt import *
+from decrypt import *
 
 def compare():
     """
