@@ -9,6 +9,7 @@ def find_largest_range (dataframes):
 
     # Identify the highest range value
     max_temp_range = station_stats['Range'].max()
+    print(station_stats)
 
     # Export station with largest range
     with open('largest_temp_range_station.txt', 'w', encoding='utf-8') as f:
