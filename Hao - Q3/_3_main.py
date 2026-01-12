@@ -1,9 +1,12 @@
-from input import *
-from draw import *
+from _1_input import *
+from _2_draw import *
 
 def main():
     try:
-
+        """
+        Executes the main drawing workflow and handles user input errors.
+        """
+        
         # Get input data and execute the drawing 
         L,D,N = input_data()
         setup_and_draw(L,D,N)
