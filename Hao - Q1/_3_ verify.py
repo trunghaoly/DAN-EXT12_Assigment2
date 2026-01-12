@@ -1,6 +1,6 @@
 # Import custom modules
-from encrypt import *
-from decrypt import *
+from _1_encrypt import *
+from _2_decrypt import *
 
 def compare():
     """
@@ -23,6 +23,10 @@ def compare():
 
 def main():
 
+    """
+    Main function to handle user input and execute the encryption, decryption, and comparison workflow.
+    """
+    
     # Loop until the user provides valid integer inputs
     while True:
         try:
